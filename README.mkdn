@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/zf5/android.git -b cm-12.1
+    repo init -u git://github.com/lurepheonix/android.git -b cm-12.1
 
 Then to sync up:
 
@@ -28,3 +28,7 @@ so all you need to do is build it.
     make -j16
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) or [Android Docs](https://source.android.com/source/building.html) for more building instructions.
+
+Credits
+-------
+Main credits go to dgadelha and tank0412 (zf5 project). This is a fork made to ease building for myself.
