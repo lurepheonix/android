@@ -598,8 +598,7 @@
   <!-- ASUS Zenfone 5 specific code -->
   <project path="device/asus/a500cg" name="lurepheonix/android_device_asus_a500cg" remote="github" revision="master" />
   <project path="vendor/asus/a500cg" name="lurepheonix/android_vendor_asus_a500cg" remote="github" revision="master" />
-  <project path="kernel/asus/a500cg" name="BORETS24/Kernel-fo-Zenfone-6-by-BORETS24" remote="github" revision="master">
-    <copyfile src="KernelMakefile" dest="KernelMakefile" />
+  <project path="kernel/asus/a500cg" name="lurepheonix/kernel_asus_a500cg" remote="github" revision="master">
   </project>
 
   <!-- Intel specific code -->
