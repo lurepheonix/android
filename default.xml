@@ -439,7 +439,7 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <!-- <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" /> -->
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <!-- <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" /> -->
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
@@ -586,7 +586,7 @@
 
   <!-- Updated CyanogenMod sources -->
   <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-12.1" />
-  <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-12.1" />
+  <!--<project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-12.1" /> -->
   <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-12.1" />
 
   <!-- ASUS specific code for kernel -->
@@ -606,7 +606,7 @@
   
   <!-- Intel specific code -->
   <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="github" revision="refs/heads/master" />
-  <project path="vendor/intel/hardware/camera_extension" name="zf5/android_vendor_intel_hardware_camera_extension" remote="github" revision="refs/heads/redhookbay/a50" />
+  <!-- <project path="vendor/intel/hardware/camera_extension" name="zf5/android_vendor_intel_hardware_camera_extension" remote="github" revision="refs/heads/redhookbay/a50" /> -->
   
   <!-- added by lurepheonix - changes -->
   <project path="frameworks/opt/telephony" name="lurepheonix/android_frameworks_opt_telephony" groups="pdk" />
